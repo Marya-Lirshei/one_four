@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "TT Lakes";
+    src: url(/one_four/fonts/TTLakes-Bold.woff);
+  }
+  
+  @font-face {
+    font-family: "TT Lakes Light";
+    src: url(/one_four/fonts/TTLakes-Light.woff);
+  }
+  
+  @font-face {
+    font-family: "TT Lakes Medium";
+    src: url(/one_four/fonts/TTLakes-Medium.woff);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    font-family: "TT Lakes Medium";
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .first-part{
+    font-family: "TT Lakes";
+  }
