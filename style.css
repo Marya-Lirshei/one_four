@@ -1,16 +1,16 @@
 @font-face {
   font-family: "TT Lakes";
-  src: url(/one_four/svg/call.svg/fonts/TTLakes-Bold.woff);
+  src: url(/one_four/fonts/TTLakes-Bold.woff);
 }
 
 @font-face {
   font-family: "TT Lakes Light";
-  src: url(/one_four/svg/call.svg/fonts/TTLakes-Light.woff);
+  src: url(/one_four/fonts/TTLakes-Light.woff);
 }
 
 @font-face {
   font-family: "TT Lakes Medium";
-  src: url(/one_four/svg/call.svg/fonts/TTLakes-Medium.woff);
+  src: url(/one_four/fonts/TTLakes-Medium.woff);
 }
 /* /one_four */
 
