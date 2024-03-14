@@ -1,16 +1,16 @@
 @font-face {
   font-family: "TT Lakes";
-  src: url(/one_four/fonts/TTLakes-Bold.woff);
+  src: url(/one_four/svg/call.svg/fonts/TTLakes-Bold.woff);
 }
 
 @font-face {
   font-family: "TT Lakes Light";
-  src: url(/one_four/fonts/TTLakes-Light.woff);
+  src: url(/one_four/svg/call.svg/fonts/TTLakes-Light.woff);
 }
 
 @font-face {
   font-family: "TT Lakes Medium";
-  src: url(/one_four/fonts/TTLakes-Medium.woff);
+  src: url(/one_four/svg/call.svg/fonts/TTLakes-Medium.woff);
 }
 /* /one_four */
 
@@ -27,15 +27,17 @@ button {
 }
 
 body {
-  background-color: #f8f8f8;
+  background-color: white;
   font-family: "TT Lakes Medium";
   font-size: 16px;
 }
 
-.aside__panel{
+.aside__panel {
   width: 320px;
   height: 100vh;
-  background-color: rgb(241, 237, 233);
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: white;
   position: fixed;
   box-shadow: 0px 0px 44px -6px;
 }
@@ -52,78 +54,64 @@ body {
   align-items: center;
   gap: 15px;
   height: 90px;
-  margin-left: 24px;
 }
 
-.aside__second-part{
-  margin-right: 24px;
-}
-
-.services__list{
-  width: 65%;
+.services__list {
+  width: 75%;
   margin-top: 20px;
-  margin-left: 25px;
   line-height: 45px;
 }
 
-.list__item {
-  transition-duration: 1s;
-  padding-bottom: 20px;
-  position: relative;
-  transition-duration: 1s;
-}
-
-footer{
+footer {
   width: 320px;
-  position: absolute;
-  bottom: 0px;
 }
 
-.footer__button{
+.footer__button {
+  position: absolute;
+  bottom: 180px;
   display: flex;
   justify-content: space-between;
   width: 50%;
-  margin-left: 25px;
 }
 
-.footer__email{
-  margin: 11px 25px;
+.footer__email {
+  position: absolute;
+  bottom: 134px;
 }
 
-.footer__number{
-  margin: 11px 25px;
+.footer__number {
   font-family: TT lakes;
   font-size: x-large;
+  position: absolute;
+  bottom: 90px;
 }
 
-.footer__lang{
+.footer__lang {
   display: flex;
   justify-content: space-between;
   width: 35%;
+  position: absolute;
+  bottom: 30px;
+
 }
 
-.lang__ru{
-  margin-left: 25px;
-  padding-bottom: 35px;
-}
-
-.services__list-item{
+.services__list-item {
   position: relative;
 }
 
-.services__list-item:hover{
-color: gray;
-cursor: pointer;
-}
-
-.lang__ru:hover,
-.lang__en:hover,
-.lang__ch:hover{
+.services__list-item:hover {
   color: gray;
   cursor: pointer;
 }
 
-.services__list-item:hover:before{
+.footer__lang_ru:hover,
+.footer__lang_en:hover,
+.footer__lang_ch:hover {
+  color: gray;
+  cursor: pointer;
+}
+
+.services__list-item:hover:before {
   content: "";
   position: absolute;
   width: 5px;
@@ -131,11 +119,11 @@ cursor: pointer;
   left: -25px;
   top: 50%;
   transform: translateY(-50%);
-  background-color: #41F6D7;
+  background-color: #41f6d7;
   border-radius: 0 4px 4px 0;
 }
 
-button img:hover{
-  filter:brightness(70%);
+button img:hover {
+  filter: brightness(70%);
   transition-duration: 1s;
 }
