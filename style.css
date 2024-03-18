@@ -24,6 +24,7 @@
 
 button {
   border: none;
+  background: transparent;
 }
 
 body {
@@ -63,35 +64,40 @@ body {
 }
 
 footer {
-  width: 320px;
+  width: 268px;
+  /* display: flex; */
+  /* align-content: space-between; */
+  /* align-items: flex-start; */
+  
+  
 }
 
 .footer__button {
-  position: absolute;
-  bottom: 180px;
+  /* position: absolute; */
+  /* bottom: 180px; */
   display: flex;
   justify-content: space-between;
   width: 50%;
 }
 
 .footer__email {
-  position: absolute;
-  bottom: 134px;
+  /* position: absolute; */
+  /* bottom: 134px; */
 }
 
 .footer__number {
   font-family: TT lakes;
   font-size: x-large;
-  position: absolute;
-  bottom: 90px;
+  /* position: absolute; */
+  /* bottom: 90px; */
 }
 
 .footer__lang {
   display: flex;
   justify-content: space-between;
   width: 35%;
-  position: absolute;
-  bottom: 30px;
+  /* position: absolute; */
+  /* bottom: 30px; */
 
 }
 
